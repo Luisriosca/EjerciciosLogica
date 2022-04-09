@@ -7,10 +7,7 @@ function toArray(object) {
     for (item in object){
       targetArray.push([item, object[item]])
     }
-    console.log(targetArray)
     return targetArray;
 }
-
-toArray(testObject)
 
 module.exports = toArray;
